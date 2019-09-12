@@ -10,7 +10,6 @@ int * arrayMax(int * array, int n) {
       *m = array[i];}
   }
   return m;
-  
 }
 
 void doTest(int * array, int n) {
