@@ -1,11 +1,61 @@
-Grading at Sat Sep 14 18:04:00 UTC 2019
-I expected to find a file called 'test-subseq.c' but it did not exist
-(or was not a regular file)
-Here are the files that I can find:
-maxSeq.c
-next-README
-README
-run_all.sh
-Can't proceed without test-subseq.c
+Grading at Sat Sep 14 18:06:26 UTC 2019
+**Testing broken implementation 10 **
+-------------------------------------
 
-Overall Grade: FAILED
+Failed when the array has negative elements
+**Testing broken implementation 11 **
+-------------------------------------
+
+Failed when the array has only one element
+
+**Testing broken implementation 1 **
+-------------------------------------
+
+Failed when the array has twelve elements
+**Testing broken implementation 2 **
+-------------------------------------
+
+Failed when the array has zero elements
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+Failed when the array has only one element
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+Failed when the array has zero elements
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+Failed when the array has a zero
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+Failed when the array has only one element
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+Failed when the array has only one element
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+Failed when the array has a zero
+
+**Testing broken implementation 9 **
+-------------------------------------
+
+Failed when the array has a zero
+
+**Testing correct implementation **
+-------------------------------------
+
+
+All test programs were handled correctly
+
+Overall Grade: PASSED
