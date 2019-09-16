@@ -4,6 +4,8 @@
 
 void reverse(char * str) {
 
+  if(str == NULL){
+    return;}
   char * p1 = str;
   int n =0;
   if(*p1 == '\0'){        //initialize n to zero if there are no characters
