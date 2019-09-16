@@ -3,7 +3,29 @@
 #include <string.h>
 
 void reverse(char * str) {
-  //WRITE ME!
+
+  char * p1 = str;
+  int n =0;
+  while(*p1 != '\0'){ //Loop to know the number of characters
+    n++;
+    p1++;}
+  p1-=1;              //now p1 is pointing to the last character
+  if(n%2 != 0){       // Condition to check if the number of characters are even
+    while(p1 != str){
+      char t = *p1;
+      *p1 = *str;
+      *str = t;
+      p1--;
+      str++;}
+  }
+  else{                      // when n is odd
+    while(str != p1+1){
+      char t = *p1;
+      *p1 = *str;
+      *str = t;
+      p1--;
+      str++;}
+  }    
 }
 
 int main(void) {
