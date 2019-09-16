@@ -14,7 +14,7 @@ void reverse(char * str) {
     p1++;}
   }
   p1-=1;              //now p1 is pointing to the last character
-  if(n != 1){
+  if(n != 1 || n!= 0){
     if(n%2 != 0){       // Condition to check if the number of characters are even
       while(p1 != str){
 	char t = *p1;
